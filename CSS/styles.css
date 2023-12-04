@@ -8,8 +8,24 @@
      scroll-behavior: smooth;
      box-sizing: border-box;
 }
+*::-webkit-scrollbar {
+     display: none;
+}
+header nav {
+     width: 95%;
+     margin: auto;
+}
 .ham-menu {
      display: none;
+}
+#home {
+     padding-top: 5.5rem;
+}
+section {
+     width: 100%;
+}
+section:nth-child(even) {
+     background: #eaeaea;
 }
 @media (max-width: 991px) {
      .ham-menu {
