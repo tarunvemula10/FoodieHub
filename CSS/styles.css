@@ -51,6 +51,42 @@ section:nth-child(even) {
 .carousel-indicators button.active {
      background-color: #dc3545 !important;
 }
+
+.submit-button {
+     width: 100%;
+     padding: 20px 0px;
+}
+.submit-button .btn {
+     margin: 0 auto;
+     display: block;
+     width: 100%;
+     padding: .9rem;
+}
+.contact-section {
+     background-color: #eaeaea;
+     padding: .9rem;
+}
+.contact-section .icon {
+     background: #dc3545;
+     width: 50px;
+     height: 50px;
+     border-radius: 100%;
+}
+.contact-section .content {
+     width: 70%;
+}
+.social-handles .btn {
+     border-radius: 100% !important;
+     width: 40px !important;
+     height: 40px !important;
+}
+.c-right a {
+     text-decoration: none;
+     color: #adb5bd;
+}
+.c-right a:hover {
+     color: #fff;
+}
 @media (max-width: 400px) {
      h1,h2,h4 {
           font-size: 80%;
