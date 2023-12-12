@@ -65,6 +65,7 @@ section:nth-child(even) {
 .contact-section {
      background-color: #eaeaea;
      padding: .9rem;
+     margin-top: .5rem;
 }
 .contact-section .icon {
      background: #dc3545;
